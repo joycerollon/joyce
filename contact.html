@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTP-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accountingservices </title>
+
+    <link rel="Stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* background-color: #DCDCDC; */
+            font-family: sans-serif;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .banner {
+            margin: auto;
+            height: 200px;
+            width: 990px;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url(image/back.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .wrapper {
+            margin: auto;
+            margin-right: 500px;
+            margin-bottom: 300px;
+            width: 930px;
+            height: 500px;
+            margin-top: 200px;
+            background-color: rgba(48, 45, 45, 0.212);
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+            padding: 50px;
+            border-radius: 10px;
+        }
+        
+        nav {
+            margin-bottom: 900px;
+        }
+        
+        nav ul {
+            list-style: none;
+            height: 100%;
+            width: 100%;
+        }
+        
+        nav li {
+            display: inline-block;
+            list-style-type: none;
+        }
+        
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+            display: inline-block;
+            color: white;
+        }
+        
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .content {
+            width: 600px;
+            float: left;
+            margin-left: 30px;
+            color: white;
+            padding: 20px;
+        }
+        
+        p {
+            padding-bottom: 20px;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        
+        h2 {
+            font-size: 80px;
+            margin-top: 0;
+        }
+        
+        aside {
+            float: right;
+            width: 230px;
+            margin-top: 5px;
+            margin-right: 0px;
+            /* margin-bottom: 700px; */
+        }
+        
+        aside h3 {
+            background-color: #f4f4f5;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        
+        aside li {
+            list-style-type: none;
+            padding-top: 10px;
+            border-bottom: solid 1px rgb(252, 252, 252);
+            text-align: left;
+            margin: 20px;
+        }
+        
+        aside a {
+            text-decoration: none;
+            line-height: 20px;
+            font-size: 30px;
+            /* text-align: center; */
+            color: #e5edf3;
+        }
+        
+        aside a:hover {
+            color: rgb(252, 252, 252);
+        }
+        
+        .logo {
+            justify-content: center;
+            margin-left: 60px;
+        }
+        
+        .ig-logo {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        
+        .a ol {
+            margin-left: 10px;
+        }
+        
+        .a ol li {
+            font-size: 18px;
+        }
+        
+        footer {
+            background-color: #e5edf3;
+            color: white;
+        }
+        
+        footer p {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        
+        .blocker {
+            margin-top: 300px;
+            clear: both !important;
+        }
+        /* ------------------------- */
+        
+        .wrapper h1 {
+            font-size: 36px;
+            text-align: center;
+            justify-content: center;
+            padding: 5px 70px;
+        }
+        
+        .wrapper label {
+            margin: 4px;
+            width: 100px;
+            text-align: left;
+            align-content: center;
+            display: inline-block;
+        }
+        
+        .wrapper select[id="choice"] {
+            width: 139px;
+            height: 30px;
+            background: transparent;
+            border-color: 1px solid #fff;
+            border-radius: 60px;
+        }
+        
+        .wrapper input[type="text"] {
+            width: 500px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            background: transparent;
+            border-color: 1px solid #fff;
+            border-radius: 60px;
+        }
+        
+        .wrapper input[type=submit] {
+            margin-left: 109px;
+            margin-top: 10px;
+            padding: 5px 20px;
+            background: transparent;
+        }
+        
+        form {
+            color: white;
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+        
+        .form-container {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .form-container label {
+            text-align: left;
+            width: 100px;
+            margin-top: 100px;
+            /* Adjust this width as needed */
+            /* padding-right: 100px; */
+            /* Add some space between the label and textarea */
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+    <nav>
+
+        <ul>
+            <li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </li>
+
+        </ul>
+
+
+    </nav>
+
+    <div class="wrapper">
+
+
+
+
+        <form>
+
+
+            <label>First Name</label>
+            <input type="text" name="Firstname" placeholder="Your Name" required /><br/>
+            <label>Last Name</label>
+            <input type="text" name="Lastname" placeholder="Your Last Name" required/><br />
+            <label>E-mail:</label>
+            <input type="text" name="Email" placeholder="Sample@host.com" required/><br />
+            <label>Telephone No.</label>
+            <input type="text" name="Telno" placeholder="Telephone No. Here" required/><br />
+            <label>Services</label>
+            <select id="choice">  
+                <option></option>
+                <option>Sales & Invoice Service</option>
+                <option>Payroll Services </option>
+                <option>
+                    Month End Reporting and Closing Services</option>
+            </select>
+            <br />
+
+            <input type="submit" value="Submit">
+
+
+        </form>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTP-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accountingservices </title>
+
+    <link rel="Stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* background: url(image/back.png) no-repeat; */
+            background-size: contain;
+            background-position: center;
+            background-color: #266f6a;
+        }
+        
+        .wrapper {
+            /* margin: auto; */
+            width: 1599%;
+            height: 9000%;
+            margin-top: 0;
+            background-color: rgba(48, 45, 45, 0.212);
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(40px);
+        }
+        
+        nav {
+            height: 100%;
+        }
+        
+        nav ul {
+            /* background-color: #3d3dff; */
+            list-style: none;
+            height: 100%;
+            width: 100%;
+        }
+        
+        nav li {
+            display: inline-block;
+            list-style-type: none;
+            /* border-bottom: solid 1px rgb(252, 252, 252); */
+        }
+        
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+            display: inline-block;
+            color: white;
+        }
+        
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .content {
+            width: 600px;
+            height: 1000px;
+            color: white;
+            padding: 20px;
+        }
+        
+        p {
+            padding-bottom: 20px;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        
+        h2 {
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+        
+        aside {
+            float: right;
+            width: 230px;
+            margin-top: 5px;
+            margin-right: 0px;
+            /* margin-bottom: 700px; */
+        }
+        
+        aside li {
+            list-style-type: none;
+            padding-top: 10px;
+            border-bottom: solid 1px rgb(252, 252, 252);
+            text-align: left;
+            margin: 20px;
+        }
+        
+        aside a {
+            text-decoration: none;
+            line-height: 20px;
+            font-size: 30px;
+            color: #e5edf3;
+        }
+        
+        aside a:hover {
+            color: rgb(252, 252, 252);
+        }
+        
+        .logo {
+            justify-content: center;
+            margin-left: 60px;
+        }
+        
+        .ig-logo {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        
+        .a ol {
+            margin-left: 10px;
+        }
+        
+        .a ol li {
+            font-size: 18px;
+        }
+        
+        footer {
+            background-color: #266f6a;
+            color: white;
+        }
+        
+        footer p {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        
+        .blocker {
+            margin-top: 1000px;
+            clear: both !important;
+        }
+        
+        .title {
+            color: #112830;
+            font-family: Norwester;
+            /* -webkit-text-fill-color: white; */
+            /* -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: #e5edf3; */
+        }
+        
+        .image1 img {
+            width: 50%;
+            float: left;
+        }
+        
+        .mwt-icon1 {
+            position: relative;
+            left: 80%;
+            top: 100px;
+        }
+        
+        .text {
+            text-align: left;
+            position: relative;
+            left: 130%;
+            bottom: 200px;
+        }
+        /* acc */
+        
+        .image2 img {
+            width: 60%;
+            float: right;
+        }
+        
+        .mwt-icon2 {
+            position: relative;
+            top: 10px;
+            left: 99%;
+        }
+        
+        .text1 {
+            text-align: left;
+            width: 300px;
+            position: relative;
+            top: 10px;
+            left: 90%;
+        }
+        /* sale */
+        
+        .image3 img {
+            width: 60%;
+            height: 40%;
+            float: left;
+        }
+        
+        .mwt-icon3 {
+            position: relative;
+            top: 50px;
+            left: 90%;
+        }
+        
+        .text2 {
+            text-align: left;
+            position: relative;
+            top: 50px;
+            left: 90%;
+        }
+        /* ddddd */
+        
+        .image4 img {
+            width: 60%;
+            height: 40%;
+            float: right;
+        }
+        
+        .mwt-icon4 {
+            position: relative;
+            top: 10px;
+            left: 100%;
+        }
+        
+        .text3 {
+            position: relative;
+            top: 66px;
+            left: 100%;
+        }
+        /* .mwt-icon1,
+        .text,
+        .mwt-icon2,
+        .text1,
+        .mwt-icon3,
+        .text2,
+        .mwt-icon4,
+        .text3 {
+            position: relative;
+            top: 100px;
+            left: 130%;
+        } */
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+
+
+
+        <nav>
+
+            <ul>
+                <li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                </li>
+
+            </ul>
+
+
+        </nav>
+
+        <section class="content">
+
+
+            <div class="container">
+
+
+
+                <div class="image1">
+
+                    <div class="mwt-icon1">
+                        <img src="image/1.png">
+                    </div>
+
+
+                    <div class="text">
+                        <h2>ACCOUNTING &</h2>
+                        <h2>BOOKKEEPING</h2>
+                        <h2>SERVICE</h2>
+
+                        <div class="title">
+                            <p><b>LBY: JOYCE B. ROLLON</b></p>
+                        </div>
+
+
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="image2">
+
+                    <div class="mwt-icon2">
+                        <img src="image/2.png">
+                    </div>
+
+                    <div class="text1">
+                        <div class="title">
+                            <p><b>SALES & INVOICING SERVICES</b> </p>
+                        </div>
+                        <p>Tracking your daily sales outstanding (DSO) is a major function an accounting service can offer. If this number is increasing, something needs to be done to drop that number down or your business could start to incur cash flow
+                            problems. Many aspects come into play with sales and invoicing so having someone take on the responsibility will help your business.</p>
+
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="image3">
+
+                    <div class="mwt-icon3">
+                        <img src="image/3.png">
+                    </div>
+
+                    <div class="text2">
+                        <div class="title">
+                            <p><b>PAYROLL SERVICES</b> </p>
+                        </div>
+                        <p>For most businesses, payroll is the biggest expense, the most time-consuming, and the most tedious process they have each month. Hiring an accounting service ensures that the job will get done correctly and on time. Some of the
+                            tasks associated with payroll that an accounting service would provide are: </p>
+                        <p> * Gathering or Entering Time Sheets</p>
+                        <p> * Processing Employee Payroll </p>
+                        <p> * Uploading Third Party Payroll Reports </p>
+                        <p> * Allocating Labor Cost by Customer or Job</p>
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="image4">
+
+                    <div class="mwt-icon4">
+                        <img src="image/4.png">
+                    </div>
+
+                    <div class="text3">
+                        <div class="title">
+                            <p><b>MONTH END CLOSING & REPORTING SERVICES</b> </p>
+                        </div>
+                        <p>The month-end close and reporting package includes, but not limited to: </p>
+                        <p> Preparing Tax & Auditor-Ready Work Papers Profit & Loss, Balance Sheet, Accounts Payable, Accounts Receivable, Sales & Customer Reports Key Performance Indicators (KPIs) including Company Scorecard, People Scorecard and Profit
+                            & Loss by Customer, Project, Service, Team, and Employee</p>
+
+
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                </div>
+
+        </section>
+
+
+        <div class="blocker"></div>
+        <footer>
+            <p>
+
+
+
+
+
+                Copyright &copy; 2023 | Bookkeeping, INC.
+
+
+
+
+            </p>
+        </footer>
+
+
+        </div>
+
+</body>
+
+</html>
